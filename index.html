@@ -1,20 +1,29 @@
-Steps to get Started
+1.  Initializing git
+    1.1.    <code>git --version</code>
+    1.2.    open the project directory
+    1.3.    <code>git init</code> (one time per project)
+    1.4.    <code>git config --global user.name "JonathanFernz"</code> (one time)
+    1.5.    <code>git config --global user.email jonathanfernzofficial@gmail.com</code> (one time)
 
-1. <code>git --version</code>
-2. open the project directory
-3. <code>git init</code> (one time per project)
-4. <code>git config --global user.name "JonathanFernz"</code> (one time)
-5. <code>git config --global user.email jonathanfernzofficial@gmail.com</code> (one time)
-6. <code>git add .</code>(adding all the changes to the staging area)
-7. <code>git reset</code> (to unstage changes)
-8. <code>git commit -m "message"</code> (commits the changes present in the staging area, this step has to be followed after git add)
-9. <code>git log</code>(viewing all the commits done)
-10. <code>git status</code> (viewing untracked branches)
-11. <code>git checkout commit_id</code>(moves the head pointer to a particular commit, changes are reverted temporarily)
-12. <code>git checkout master</code>(to getback to the changes reverted in previous command)
-13. <code>git remote add origin https://github.com/jfernzofficial/GIT-DEMO.git</code>
-    <code>git branch -M main</code>
-    <code>git push -u origin main</code>
-    (pushing local repository to github)
-14. Adding new changes to the repository
-    <code>git push origin master</code>
+2.  Add | Commit | Reset | Log | Status | Checkout
+    2.1.    <code>git add .</code>(adding all the changes to the staging area)
+    2.2.    <code>git reset</code> (to unstage changes)
+    2.3.    <code>git commit -m "message"</code> (commits the changes present in the staging area, this step has to be followed after git add)
+    2.4.    <code>git log</code>(viewing all the commits done)
+    2.5.    <code>git status</code> (viewing untracked branches)
+    2.6.    <code>git checkout commit_id</code>(moves the head pointer to a particular commit, changes are reverted temporarily)
+    2.7.    <code>git checkout master</code>(to getback to the changes reverted in previous command)
+
+3.  Pushing local repository to github:
+    3.1.    <code>git remote add origin https://github.com/jfernzofficial/GIT-DEMO.git</code>
+    3.2.    <code>git branch -M main</code>
+    3.3.    <code>git push -u origin main</code>
+
+4.  Adding new changes to the repository:
+    4.1.    <code>git push origin master</code>
+            OR <code>git push origin main</code>
+
+5.  Establishing connection between local terminal and github requires:
+    5.1.    Personal Access tokens
+    5.2.    <code>git push origin main</code>
+    5.3.    Enter github username and personal access token as password
